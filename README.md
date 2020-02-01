@@ -69,4 +69,5 @@ https://www.datacamp.com/community/tutorials/xgboost-in-python
 
 https://facebook.github.io/prophet/docs/quick_start.html
 
+# Blog
 You can also check out my blog - https://medium.com/@bismanpreetsingh/predicting-sales-time-series-analysis-forecasting-with-python-b81d3e8ff03f
