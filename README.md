@@ -11,7 +11,7 @@ One of the most important tasks for any retail store company is to analyze the p
 Rossmann operates over 3,000 drug stores in 7 European countries. We are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. 
 
 # Files
-You are provided with historical sales data for 1,115 Rossmann stores. 
+We are provided with historical sales data for 1,115 Rossmann stores. 
 •	train.csv - historical data including Sales
 •	test.csv - historical data excluding Sales
 •	sample_submission.csv - a sample submission file in the correct format
@@ -27,13 +27,14 @@ Mean Absolute Error (MAE): It is the average of the absolute difference between 
 Root Mean Square Error (RMSE): It is the square root of the average of squared differences between the predicted values and observed values.
 
 MAE is easier to understand and interpret but RMSE works well in situations where large errors are undesirable. This is because the errors are squared before they are averaged, thus penalizing large errors. In our case, RMSE suits well because we want to predict the sales with minimum error (i.e penalize high errors) so that inventory can be managed properly.
+
 So, we’ll choose RMSE as a metric to measure the performance of our models.
 
 # Libraries Used
 Numpy, pandas, seaborn, statsmodels, ARIMA, Prophet, XGBoost, sklearn
 
 # Results
-We used the Root Mean Squared Error (RMSE) to evaluate and validate the performance of various models. 
+We will use the Root Mean Squared Error (RMSE) to evaluate and validate the performance of various models. 
 
 
 ![alt text](https://github.com/bisman16/Kaggle_Rossmann_Store_Sales_Forecasting/blob/master/model_comparison.JPG)
@@ -57,10 +58,15 @@ Based on the above analysis, we’ll choose ARIMA as our final model to predict 
 # Acknowledgments
 
 https://www.kaggle.com/c/rossmann-store-sales
+
 https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
+
 https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3
+
 https://xgboost.readthedocs.io/en/latest/python/python_intro.html
+
 https://www.datacamp.com/community/tutorials/xgboost-in-python
+
 https://facebook.github.io/prophet/docs/quick_start.html
 
 You can also check out my blog - https://medium.com/@bismanpreetsingh/predicting-sales-time-series-analysis-forecasting-with-python-b81d3e8ff03f
