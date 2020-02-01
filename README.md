@@ -1,6 +1,6 @@
 # Kaggle_Rossmann_Store_Sales_Forecasting
 
-# Kaggle_Rossmann_Store_Sales_Forecasting
+![alt text](https://github.com/bisman16/Kaggle_Rossmann_Store_Sales_Forecasting/blob/master/rossmann.png)
 
 # Motivation 
 I was always fascinated to know how retail stores and distributors make predictions for the inventory they need to keep at each of their store. Recently, I got to know that there are sophisticated predictive models available that take into consideration seasonality and trends. So, when I got an opportunity to do a Capstone project as part of my Udacity Data Scientist Nano degree, I thought of exploring a famous retail store time series data set available on Kaggle.
@@ -35,6 +35,8 @@ Numpy, pandas, seaborn, statsmodels, ARIMA, Prophet, XGBoost, sklearn
 # Results
 We used the Root Mean Squared Error (RMSE) to evaluate and validate the performance of various models. 
 
+
+![alt text](https://github.com/bisman16/Kaggle_Rossmann_Store_Sales_Forecasting/blob/master/model_comparison.JPG)
 
 # Model Comparison & Selection
 a) We can see from the above table that SARIMA performs the best followed by XGBoost and Prophet.
